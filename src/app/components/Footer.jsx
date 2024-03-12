@@ -1,10 +1,22 @@
-import { Box, Text } from '@chakra-ui/react'
+import { Box, Text, Image } from '@chakra-ui/react'
 
 
 const Footer = () => {
     return (
-        <Box as='header' border="2px solid red"  display="flex">
-            <Text>Footer, adentro va imagen e informacion</Text>
+        <Box
+            as="footer"
+            maxW="1480"
+            bgImage="url('/images/footerbg.png')"
+            bgPosition="center"
+            bgRepeat="no-repeat">
+                <Box display="flex"
+                    w="90%"
+                    ml="auto"
+                    mr="auto"
+                    align-items="center">
+                    <Image w="40%" src='/images/sictraLogo.png' alt='el logo de sictra' />
+                    <Text w="40%" textAlign="center">San José, Costa Rica - Centroamérica.</Text>
+                </Box>
         </Box>
     );
 }
