@@ -1,10 +1,15 @@
-import { Box, Text } from '@chakra-ui/react'
+import { Box, Link, Image } from '@chakra-ui/react'
 
 
-const Header = ({}) => {
+const Nav = () => {
     return (
-        <Box as='header' border="2px solid red" maxW="1480" bg="rgba(174, 246, 255, 0.2)"></Box>
+        <Box as='nav' bg="#143C61" p="10" color="#FFFFFF">
+            <Link href="/" mr="8">Inicio</Link>
+            <Link href="/sobrenosotros" mr="8">Conocenos</Link>
+            <Link href="/servicios" mr="8">Servicios</Link>
+            <Link href="/contacto" mr="8">Contacto</Link>
+        </Box>
     );
 }
   
-export default Header
+export default Nav
