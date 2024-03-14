@@ -5,7 +5,7 @@ import Nav from './Nav';
 const Header = () => {
     return (
         <Box as='header' maxW="1480" bg="rgba(174, 246, 255, 0.2)" display="flex" p="6">
-            <Image src='/images/sictraLogo.png' alt='el logo de sictra' w="250px" /> 
+            <Image src='/images/sictraLogo.png' alt='el logo de sictra' w="180px" h="100px" mr="40"/> 
             <Nav/>
         </Box>
     );  
