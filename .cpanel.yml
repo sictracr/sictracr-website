@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/sictracr/public_html/
-    - /bin/cp -R images $DEPLOYPATH
