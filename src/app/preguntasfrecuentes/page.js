@@ -1,6 +1,6 @@
 const PreguntasFrecuentes = () => {
     return (
-      <h1>I'M PreguntasFrecuentes PAGE</h1>
+      <h1>I AM Preguntas Frecuentes PAGE</h1>
     );
   }
   
